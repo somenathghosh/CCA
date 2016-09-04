@@ -10,7 +10,7 @@ var users = require('./routes/users');
 var db = require('node-mysql');
 var mongoose = require('mongoose');
 
-var r = require('./util/Results.js');
+var r = require('./Util/Results.js');
 
 var DB = db.DB;
 
